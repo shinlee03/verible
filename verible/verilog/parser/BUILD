@@ -11,7 +11,7 @@ load(
 package(
     default_applicable_licenses = ["//:license"],
     default_visibility = [
-        "//verible/verilog:__subpackages__",
+        "//visibility:public",
     ],
     # Not yet enabled, lexer does not find FlexLexer.h
     #features = ["layering_check"],
